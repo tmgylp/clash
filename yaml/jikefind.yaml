@@ -1,0 +1,1176 @@
+#!MANAGED-CONFIG https://jikeq87.xyz/link/xZKWgPj69ScPBFq0?clash=1
+
+#---------------------------------------------------#
+## 上次更新于：2025-12-29 12:00:27
+#---------------------------------------------------#
+
+port: 7890
+socks-port: 7891
+redir-port: 7892
+allow-lan: false
+mode: rule
+log-level: silent
+external-controller: '0.0.0.0:9090'
+secret: ''
+proxies:
+  -
+    name: '网址：https://jikefind.net'
+    type: ss
+    server: jikeq87.xyz
+    port: 10086
+    cipher: chacha20-ietf-poly1305
+    password: BuDqcma0vwO
+  -
+    name: 剩余流量：2.87TB
+    type: ss
+    server: jikeq87.xyz
+    port: 10086
+    cipher: chacha20-ietf-poly1305
+    password: BuDqcma0vwO
+  -
+    name: 过期时间：2026-10-17
+    type: ss
+    server: jikeq87.xyz
+    port: 10086
+    cipher: chacha20-ietf-poly1305
+    password: BuDqcma0vwO
+  -
+    name: '回家页:https://jike61.net '
+    type: ssr
+    server: v3.cdn.ew3ns.net
+    port: 31206
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: '回家页：https://jike61.net'
+    type: vmess
+    server: v5.cdn.fatdns.net
+    port: 31861
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: xixi-newhinet01.bilibili.com
+    network: ws
+    ws-path: /62a88e27-2b1f-462f-8e4a-3e1359ac805c.live238.m3u8
+    ws-headers:
+      Host: xixi-newhinet01.bilibili.com
+    ws-opts:
+      path: /62a88e27-2b1f-462f-8e4a-3e1359ac805c.live238.m3u8
+      headers: { Host: xixi-newhinet01.bilibili.com }
+  -
+    name: V2-香港HKT01|NF|v2ray
+    type: vmess
+    server: v2.cdn.yye837u1f6xg.jjxdns.net
+    port: 32603
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: jike1-us05.bilibili.com
+    network: ws
+    ws-path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8
+    ws-headers:
+      Host: jike1-us05.bilibili.com
+    ws-opts:
+      path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8
+      headers: { Host: jike1-us05.bilibili.com }
+  -
+    name: 'V2-香港HKT01|NF '
+    type: ssr
+    server: v2.cdn.yye837u1f6xg.jjxdns.net
+    port: 31602
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V3-香港HKT01|NF|v2ray
+    type: vmess
+    server: v3.cdn.wp85x4frjf6x.jjxdns.net
+    port: 39601
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: jike1-us02.bilibili.com
+    network: ws
+    ws-path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
+    ws-headers:
+      Host: jike1-us02.bilibili.com
+    ws-opts:
+      path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
+      headers: { Host: jike1-us02.bilibili.com }
+  -
+    name: 'V3-香港HKT01|NF '
+    type: ssr
+    server: v3.cdn.wp85x4frjf6x.jjxdns.net
+    port: 31600
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V4-香港HKT02|NF|v2ray
+    type: vmess
+    server: v4.cdn.u5mltvhwkm.jjxdns.net
+    port: 39571
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: jike1-linode11.bilibili.com
+    network: ws
+    ws-path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
+    ws-headers:
+      Host: jike1-linode11.bilibili.com
+    ws-opts:
+      path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
+      headers: { Host: jike1-linode11.bilibili.com }
+  -
+    name: 'V4-香港HKT02|NF '
+    type: ssr
+    server: v4.cdn.u5mltvhwkm.jjxdns.net
+    port: 31570
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V3-香港HKT02|NF|v2ray
+    type: vmess
+    server: v3.cdn.wp85x4frjf6x.jjxdns.net
+    port: 39569
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: jike1-linode10.bilibili.com
+    network: ws
+    ws-path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8
+    ws-headers:
+      Host: jike1-linode10.bilibili.com
+    ws-opts:
+      path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8
+      headers: { Host: jike1-linode10.bilibili.com }
+  -
+    name: 'V3-香港HKT02|NF '
+    type: ssr
+    server: v3.cdn.wp85x4frjf6x.jjxdns.net
+    port: 31568
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V4-新加坡OVH02|v2ray
+    type: vmess
+    server: v4.cdn.u5mltvhwkm.jjxdns.net
+    port: 38567
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+  -
+    name: 'V4-新加坡OVH02 '
+    type: ssr
+    server: v4.cdn.u5mltvhwkm.jjxdns.net
+    port: 31566
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V2-新加坡OVH02|v2ray
+    type: vmess
+    server: v2.cdn.yye837u1f6xg.jjxdns.net
+    port: 39561
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: jike1-linode06.bilibili.com
+    network: ws
+    ws-path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8
+    ws-headers:
+      Host: jike1-linode06.bilibili.com
+    ws-opts:
+      path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8
+      headers: { Host: jike1-linode06.bilibili.com }
+  -
+    name: 'V2-新加坡OVH02 '
+    type: ssr
+    server: v2.cdn.yye837u1f6xg.jjxdns.net
+    port: 31560
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V2-韩国02|NF|v2ray
+    type: vmess
+    server: v2.cdn.yye837u1f6xg.jjxdns.net
+    port: 38559
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: jike1-linode05.bilibili.com
+    network: ws
+    ws-path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8
+    ws-headers:
+      Host: jike1-linode05.bilibili.com
+    ws-opts:
+      path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8
+      headers: { Host: jike1-linode05.bilibili.com }
+  -
+    name: 'V2-韩国02|NF '
+    type: ssr
+    server: v2.cdn.yye837u1f6xg.jjxdns.net
+    port: 31558
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V3-新加坡OVH02|v2ray
+    type: vmess
+    server: v3.cdn.wp85x4frjf6x.jjxdns.net
+    port: 38555
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: jike1-linode03.bilibili.com
+    network: ws
+    ws-path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
+    ws-headers:
+      Host: jike1-linode03.bilibili.com
+    ws-opts:
+      path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
+      headers: { Host: jike1-linode03.bilibili.com }
+  -
+    name: 'V3-新加坡OVH02 '
+    type: ssr
+    server: v3.cdn.wp85x4frjf6x.jjxdns.net
+    port: 38554
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V4-韩国02|NF|v2ray
+    type: vmess
+    server: v4.cdn.u5mltvhwkm.jjxdns.net
+    port: 38551
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: jike1-linode01.bilibili.com
+    network: ws
+    ws-path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8
+    ws-headers:
+      Host: jike1-linode01.bilibili.com
+    ws-opts:
+      path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8
+      headers: { Host: jike1-linode01.bilibili.com }
+  -
+    name: 'V4-韩国02|NF '
+    type: ssr
+    server: v4.cdn.u5mltvhwkm.jjxdns.net
+    port: 31550
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V2-香港HKT02|NF|v2ray
+    type: vmess
+    server: v2.cdn.yye837u1f6xg.jjxdns.net
+    port: 38507
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: jike1-azsg04.bilibili.com
+    network: ws
+    ws-path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
+    ws-headers:
+      Host: jike1-azsg04.bilibili.com
+    ws-opts:
+      path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
+      headers: { Host: jike1-azsg04.bilibili.com }
+  -
+    name: 'V2-香港HKT02|NF '
+    type: ssr
+    server: v2.cdn.yye837u1f6xg.jjxdns.net
+    port: 38506
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V3-韩国02|NF|v2ray
+    type: vmess
+    server: v3.cdn.wp85x4frjf6x.jjxdns.net
+    port: 39595
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: jike1-azsg03.bilibili.com
+    network: ws
+    ws-path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
+    ws-headers:
+      Host: jike1-azsg03.bilibili.com
+    ws-opts:
+      path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
+      headers: { Host: jike1-azsg03.bilibili.com }
+  -
+    name: 'V3-韩国02|NF '
+    type: ssr
+    server: v3.cdn.wp85x4frjf6x.jjxdns.net
+    port: 31504
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V2-日本02|NF|v2ray
+    type: vmess
+    server: v2.cdn.yye837u1f6xg.jjxdns.net
+    port: 39409
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: jike1-azjp05.bilibili.com
+    network: ws
+    ws-path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8
+    ws-headers:
+      Host: jike1-azjp05.bilibili.com
+    ws-opts:
+      path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8
+      headers: { Host: jike1-azjp05.bilibili.com }
+  -
+    name: 'V2-日本02|NF '
+    type: ssr
+    server: v2.cdn.yye837u1f6xg.jjxdns.net
+    port: 31408
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V3-日本02|NF|v2ray
+    type: vmess
+    server: v3.cdn.wp85x4frjf6x.jjxdns.net
+    port: 39403
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: jike1-azjp001.bilibili.com
+    network: ws
+    ws-path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
+    ws-headers:
+      Host: jike1-azjp001.bilibili.com
+    ws-opts:
+      path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
+      headers: { Host: jike1-azjp001.bilibili.com }
+  -
+    name: 'V3-日本02|NF '
+    type: ssr
+    server: v3.cdn.wp85x4frjf6x.jjxdns.net
+    port: 31402
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V4-日本02|NF|v2ray
+    type: vmess
+    server: v4.cdn.u5mltvhwkm.jjxdns.net
+    port: 39401
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: jike1-azjp001.bilibili.com
+    network: ws
+    ws-path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8
+    ws-headers:
+      Host: jike1-azjp001.bilibili.com
+    ws-opts:
+      path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8
+      headers: { Host: jike1-azjp001.bilibili.com }
+  -
+    name: 'V4-日本02|NF '
+    type: ssr
+    server: v4.cdn.u5mltvhwkm.jjxdns.net
+    port: 31400
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V2-美国洛杉矶01|v2ray
+    type: vmess
+    server: v2.cdn.yye837u1f6xg.jjxdns.net
+    port: 39391
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: jike1-ru06.bilibili.com
+    network: ws
+    ws-path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8
+    ws-headers:
+      Host: jike1-ru06.bilibili.com
+    ws-opts:
+      path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8
+      headers: { Host: jike1-ru06.bilibili.com }
+  -
+    name: 'V2-美国洛杉矶01 '
+    type: ssr
+    server: v2.cdn.yye837u1f6xg.jjxdns.net
+    port: 31310
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V2-法国01|v2ray
+    type: vmess
+    server: v2.cdn.yye837u1f6xg.jjxdns.net
+    port: 39399
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: jike1-ru05.bilibili.com
+    network: ws
+    ws-path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8
+    ws-headers:
+      Host: jike1-ru05.bilibili.com
+    ws-opts:
+      path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8
+      headers: { Host: jike1-ru05.bilibili.com }
+  -
+    name: 'V2-法国01 '
+    type: ssr
+    server: v2.cdn.yye837u1f6xg.jjxdns.net
+    port: 31308
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V3-美国洛杉矶01|v2ray
+    type: vmess
+    server: v3.cdn.wp85x4frjf6x.jjxdns.net
+    port: 39397
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: jike1-ru04.bilibili.com
+    network: ws
+    ws-path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
+    ws-headers:
+      Host: jike1-ru04.bilibili.com
+    ws-opts:
+      path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
+      headers: { Host: jike1-ru04.bilibili.com }
+  -
+    name: 'V3-美国洛杉矶01 '
+    type: ssr
+    server: v3.cdn.wp85x4frjf6x.jjxdns.net
+    port: 39306
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V3-法国01|v2ray
+    type: vmess
+    server: v3.cdn.wp85x4frjf6x.jjxdns.net
+    port: 39395
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: jike1-ru03.bilibili.com
+    network: ws
+    ws-path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
+    ws-headers:
+      Host: jike1-ru03.bilibili.com
+    ws-opts:
+      path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
+      headers: { Host: jike1-ru03.bilibili.com }
+  -
+    name: 'V3-法国01 '
+    type: ssr
+    server: v3.cdn.wp85x4frjf6x.jjxdns.net
+    port: 31304
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V4-马来西亚|GPT|v2ray
+    type: vmess
+    server: v4.cdn.u5mltvhwkm.jjxdns.net
+    port: 31303
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: hkghk.bilibili.com
+    network: ws
+    ws-path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8
+    ws-headers:
+      Host: hkghk.bilibili.com
+    ws-opts:
+      path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8
+      headers: { Host: hkghk.bilibili.com }
+  -
+    name: 'V4-马来西亚|GPT '
+    type: ssr
+    server: v4.cdn.u5mltvhwkm.jjxdns.net
+    port: 31302
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V2-韩国01|NF|v2ray
+    type: vmess
+    server: v2.cdn.yye837u1f6xg.jjxdns.net
+    port: 39215
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: host=live.bilibili.com
+    network: ws
+    ws-path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8
+    ws-headers:
+      Host: host=live.bilibili.com
+    ws-opts:
+      path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8
+      headers: { Host: host=live.bilibili.com }
+  -
+    name: 'V2-韩国01|NF '
+    type: ssr
+    server: v2.cdn.yye837u1f6xg.jjxdns.net
+    port: 31214
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V3-韩国01|NF|v2ray
+    type: vmess
+    server: v3.cdn.wp85x4frjf6x.jjxdns.net
+    port: 39213
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: host=live.bilibili.com
+    network: ws
+    ws-path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
+    ws-headers:
+      Host: host=live.bilibili.com
+    ws-opts:
+      path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
+      headers: { Host: host=live.bilibili.com }
+  -
+    name: 'V3-韩国01|NF '
+    type: ssr
+    server: v3.cdn.wp85x4frjf6x.jjxdns.net
+    port: 31212
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V4-韩国01|NF|v2ray
+    type: vmess
+    server: v4.cdn.u5mltvhwkm.jjxdns.net
+    port: 39211
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: host=live.bilibili.com
+    network: ws
+    ws-path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8
+    ws-headers:
+      Host: host=live.bilibili.com
+    ws-opts:
+      path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8
+      headers: { Host: host=live.bilibili.com }
+  -
+    name: 'V4-韩国01|NF '
+    type: ssr
+    server: v4.cdn.u5mltvhwkm.jjxdns.net
+    port: 31210
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V2-台湾01|NF|v2ray
+    type: vmess
+    server: v2.cdn.yye837u1f6xg.jjxdns.net
+    port: 39205
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: host=live.bilibili.com
+    network: ws
+    ws-path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8
+    ws-headers:
+      Host: host=live.bilibili.com
+    ws-opts:
+      path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8
+      headers: { Host: host=live.bilibili.com }
+  -
+    name: 'V2-台湾01|NF '
+    type: ssr
+    server: v2.cdn.yye837u1f6xg.jjxdns.net
+    port: 31204
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V3-台湾01|NF|v2ray
+    type: vmess
+    server: v3.cdn.wp85x4frjf6x.jjxdns.net
+    port: 39203
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: host=live.bilibili.com
+    network: ws
+    ws-path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
+    ws-headers:
+      Host: host=live.bilibili.com
+    ws-opts:
+      path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
+      headers: { Host: host=live.bilibili.com }
+  -
+    name: 'V3-台湾01|NF '
+    type: ssr
+    server: v3.cdn.wp85x4frjf6x.jjxdns.net
+    port: 31202
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V4-台湾01|NF|v2ray
+    type: vmess
+    server: v4.cdn.u5mltvhwkm.jjxdns.net
+    port: 39201
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: host=live.bilibili.com
+    network: ws
+    ws-path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8
+    ws-headers:
+      Host: host=live.bilibili.com
+    ws-opts:
+      path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8
+      headers: { Host: host=live.bilibili.com }
+  -
+    name: 'V4-台湾01|NF '
+    type: ssr
+    server: v4.cdn.u5mltvhwkm.jjxdns.net
+    port: 31200
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: 'V2-新加坡OVH01 '
+    type: ssr
+    server: v2.cdn.yye837u1f6xg.jjxdns.net
+    port: 31874
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V2-新加坡OVH01|v2ray
+    type: vmess
+    server: v2.cdn.yye837u1f6xg.jjxdns.net
+    port: 31875
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: jike1-sgovh03.bilibili.com
+    network: ws
+    ws-path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8
+    ws-headers:
+      Host: jike1-sgovh03.bilibili.com
+    ws-opts:
+      path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8
+      headers: { Host: jike1-sgovh03.bilibili.com }
+  -
+    name: 'V2-日本01|NF '
+    type: ssr
+    server: v2.cdn.yye837u1f6xg.jjxdns.net
+    port: 31454
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V2-日本01|NF|v2ray
+    type: vmess
+    server: v2.cdn.yye837u1f6xg.jjxdns.net
+    port: 29855
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: jike1-giasg03.bilibili.com
+    network: ws
+    ws-path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8
+    ws-headers:
+      Host: jike1-giasg03.bilibili.com
+    ws-opts:
+      path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8
+      headers: { Host: jike1-giasg03.bilibili.com }
+  -
+    name: 'V2-香港自有机房01 '
+    type: ssr
+    server: v2.cdn.yye837u1f6xg.jjxdns.net
+    port: 22716
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V2-香港自有机房01|v2ray
+    type: vmess
+    server: v2.cdn.yye837u1f6xg.jjxdns.net
+    port: 29717
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: jike1-azhk33.bilibili.com
+    network: ws
+    ws-path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8
+    ws-headers:
+      Host: jike1-azhk33.bilibili.com
+    ws-opts:
+      path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8
+      headers: { Host: jike1-azhk33.bilibili.com }
+  -
+    name: 'V2-马来西亚|GPT '
+    type: ssr
+    server: v2.cdn.yye837u1f6xg.jjxdns.net
+    port: 21708
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V2-马来西亚|GPT|v2ray
+    type: vmess
+    server: v2.cdn.yye837u1f6xg.jjxdns.net
+    port: 29709
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: cmihk.bilibili.com
+    network: ws
+    ws-path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
+    ws-headers:
+      Host: cmihk.bilibili.com
+    ws-opts:
+      path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
+      headers: { Host: cmihk.bilibili.com }
+  -
+    name: 'V3-新加坡OVH01 '
+    type: ssr
+    server: v3.cdn.wp85x4frjf6x.jjxdns.net
+    port: 31872
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V3-新加坡OVH01|v2ray
+    type: vmess
+    server: v3.cdn.wp85x4frjf6x.jjxdns.net
+    port: 31873
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: jike1-sgovh02.bilibili.com
+    network: ws
+    ws-path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
+    ws-headers:
+      Host: jike1-sgovh02.bilibili.com
+    ws-opts:
+      path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
+      headers: { Host: jike1-sgovh02.bilibili.com }
+  -
+    name: 'V3-日本01|NF '
+    type: ssr
+    server: v3.cdn.wp85x4frjf6x.jjxdns.net
+    port: 31854
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V3-日本01|NF|v2ray
+    type: vmess
+    server: v3.cdn.wp85x4frjf6x.jjxdns.net
+    port: 39457
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: cmihk.bilibili.com
+    network: ws
+    ws-path: /62a88e27-2b1f-462f-8e4a-3e1359ac805c.live238.m3u8
+    ws-headers:
+      Host: cmihk.bilibili.com
+    ws-opts:
+      path: /62a88e27-2b1f-462f-8e4a-3e1359ac805c.live238.m3u8
+      headers: { Host: cmihk.bilibili.com }
+  -
+    name: 'V3-香港自有机房01 '
+    type: ssr
+    server: v3.cdn.wp85x4frjf6x.jjxdns.net
+    port: 31722
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V3-香港自有机房01|v2ray
+    type: vmess
+    server: v3.cdn.wp85x4frjf6x.jjxdns.net
+    port: 31723
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: jike1-azhk32.bilibili.com
+    network: ws
+    ws-path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8
+    ws-headers:
+      Host: jike1-azhk32.bilibili.com
+    ws-opts:
+      path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8
+      headers: { Host: jike1-azhk32.bilibili.com }
+  -
+    name: 'V3-马来西亚|GPT '
+    type: ssr
+    server: v3.cdn.wp85x4frjf6x.jjxdns.net
+    port: 22706
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V3-马来西亚|GPT|v2ray
+    type: vmess
+    server: v3.cdn.wp85x4frjf6x.jjxdns.net
+    port: 29707
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: hkghk.bilibili.com
+    network: ws
+    ws-path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8
+    ws-headers:
+      Host: hkghk.bilibili.com
+    ws-opts:
+      path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8
+      headers: { Host: hkghk.bilibili.com }
+  -
+    name: 'V4-新加坡OVH01 '
+    type: ssr
+    server: v4.cdn.u5mltvhwkm.jjxdns.net
+    port: 31870
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V4-新加坡OVH01|v2ray
+    type: vmess
+    server: v4.cdn.u5mltvhwkm.jjxdns.net
+    port: 31871
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: jike1-sgovh01.bilibili.com
+    network: ws
+    ws-path: /06-89890cb.live238.m3u8
+    ws-headers:
+      Host: jike1-sgovh01.bilibili.com
+    ws-opts:
+      path: /06-89890cb.live238.m3u8
+      headers: { Host: jike1-sgovh01.bilibili.com }
+  -
+    name: 'V4-日本01|NF '
+    type: ssr
+    server: v4.cdn.u5mltvhwkm.jjxdns.net
+    port: 31456
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V4-日本01|NF|v2ray
+    type: vmess
+    server: v4.cdn.u5mltvhwkm.jjxdns.net
+    port: 39455
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: cmihk.bilibili.com
+    network: ws
+    ws-path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8
+    ws-headers:
+      Host: cmihk.bilibili.com
+    ws-opts:
+      path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8
+      headers: { Host: cmihk.bilibili.com }
+  -
+    name: 'V4-法国01 '
+    type: ssr
+    server: v4.cdn.u5mltvhwkm.jjxdns.net
+    port: 31802
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V4-法国01|v2ray
+    type: vmess
+    server: v4.cdn.u5mltvhwkm.jjxdns.net
+    port: 29893
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: jike1-de02.bilibili.com
+    network: ws
+    ws-path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
+    ws-headers:
+      Host: jike1-de02.bilibili.com
+    ws-opts:
+      path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
+      headers: { Host: jike1-de02.bilibili.com }
+  -
+    name: 'V4-美国洛杉矶01 '
+    type: ssr
+    server: v4.cdn.u5mltvhwkm.jjxdns.net
+    port: 31804
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V4-美国洛杉矶01|v2ray
+    type: vmess
+    server: v4.cdn.u5mltvhwkm.jjxdns.net
+    port: 27805
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: jike1-de03.bilibili.com
+    network: ws
+    ws-path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8
+    ws-headers:
+      Host: jike1-de03.bilibili.com
+    ws-opts:
+      path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8
+      headers: { Host: jike1-de03.bilibili.com }
+  -
+    name: 'V4-香港HKT01|NF '
+    type: ssr
+    server: v4.cdn.u5mltvhwkm.jjxdns.net
+    port: 31806
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V4-香港HKT01|NF|v2ray
+    type: vmess
+    server: v4.cdn.u5mltvhwkm.jjxdns.net
+    port: 29807
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: jike1-de04.bilibili.com
+    network: ws
+    ws-path: /62a88e27-2b1f-462f-8e4a-3e1359ac805c.live238.m3u8
+    ws-headers:
+      Host: jike1-de04.bilibili.com
+    ws-opts:
+      path: /62a88e27-2b1f-462f-8e4a-3e1359ac805c.live238.m3u8
+      headers: { Host: jike1-de04.bilibili.com }
+  -
+    name: 'V4-香港自有机房01 '
+    type: ssr
+    server: v4.cdn.u5mltvhwkm.jjxdns.net
+    port: 9712
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V4-香港自有机房01|v2ray
+    type: vmess
+    server: v4.cdn.u5mltvhwkm.jjxdns.net
+    port: 9713
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: jike1-azhk31.bilibili.com
+    network: ws
+    ws-path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8
+    ws-headers:
+      Host: jike1-azhk31.bilibili.com
+    ws-opts:
+      path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8
+      headers: { Host: jike1-azhk31.bilibili.com }
+  -
+    name: 'V4-香港自有机房02 '
+    type: ssr
+    server: v4.cdn.u5mltvhwkm.jjxdns.net
+    port: 21714
+    cipher: chacha20-ietf
+    password: yT6Am5
+    protocol: auth_aes128_md5
+    protocol-param: '530407:BuDqcma0vwO'
+    obfs: tls1.2_ticket_auth
+    obfs-param: aae01530407.microsoft.com
+  -
+    name: V4-香港自有机房02|v2ray
+    type: vmess
+    server: v4.cdn.u5mltvhwkm.jjxdns.net
+    port: 29715
+    uuid: 7fa0759a-0e8f-360e-8b72-53c00cf80701
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: jike1-azhk32.bilibili.com
+    network: ws
+    ws-path: /62a88e27-2b1f-462f-8e4a-3e1359ac805c.live238.m3u8
+    ws-headers:
+      Host: jike1-azhk32.bilibili.com
+    ws-opts:
+      path: /62a88e27-2b1f-462f-8e4a-3e1359ac805c.live238.m3u8
+      headers: { Host: jike1-azhk32.bilibili.com }
