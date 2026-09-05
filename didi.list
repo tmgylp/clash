@@ -1,7 +1,8 @@
-# 内容：滴滴代驾司机端放行规则
+# 内容：滴滴代驾司机端点读君放行规则
 # 域名关键字匹配
 DOMAIN-KEYWORD,xiaojukeji
 DOMAIN-KEYWORD,didi
+DOMAIN-KEYWORD,diandujun
 DOMAIN-KEYWORD,ooup.top
 # 域名后缀匹配
 DOMAIN-SUFFIX,jjxdns.net,DIRECT #滴滴代驾放行策略
@@ -9,4 +10,7 @@ DOMAIN-SUFFIX,xiaojukeji.com,DIRECT
 DOMAIN-SUFFIX,didialift.com,DIRECT
 DOMAIN-SUFFIX,diditaxi.com.cn,DIRECT
 DOMAIN-SUFFIX,udache.com,DIRECT
+DOMAIN-SUFFIX,diandujun.net,DIRECT #点读君放行策略
+DOMAIN-SUFFIX,aidiandu100.com,DIRECT
+DOMAIN-SUFFIX,diandujun.com,DIRECT
 DOMAIN-SUFFIX,ooup.top,DIRECT
